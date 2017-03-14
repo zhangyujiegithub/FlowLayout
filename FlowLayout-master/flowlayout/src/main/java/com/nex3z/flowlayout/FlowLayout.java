@@ -54,7 +54,7 @@ public class FlowLayout extends ViewGroup {
 
     public FlowLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
-
+        //新加的东西
         TypedArray a = context.getTheme().obtainStyledAttributes(
                 attrs, R.styleable.FlowLayout, 0, 0);
         try {
